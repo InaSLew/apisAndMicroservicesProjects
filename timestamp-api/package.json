@@ -1,26 +1,22 @@
 {
   "name": "timestamp-api",
   "version": "1.0.0",
-  "description": "A timestamp API for freeCodeCamp's APIs and Microservices Certification",
-  "main": "index.js",
+  "description": "A timestamp api service",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/InaSLew/apisAndMicroservicesProjects.git"
-  },
   "keywords": [
-    "api",
-    "timestamp",
     "freeCodeCamp",
-    "fcc",
-    "microservice"
+    "api",
+    "microservice",
+    "timestamp"
   ],
   "author": "InaSLew",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/InaSLew/apisAndMicroservicesProjects/issues"
-  },
-  "homepage": "https://github.com/InaSLew/apisAndMicroservicesProjects#readme"
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  }
 }
