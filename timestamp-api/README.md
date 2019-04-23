@@ -4,8 +4,8 @@ The api endpoint `/api/timestamp/:date_string?` takes a string and returns its c
 
 ## Example usage
 - `GET [project url]/api/timestamp/2015-12-25`
-- `GET project url]/api/timestamp/1450137600`
-- `GET project url]/api/timestamp/foobar`
+- `GET [project url]/api/timestamp/1450137600`
+- `GET [project url]/api/timestamp/foobar`
 
 ## Example output
 - `{ "unix":1451001600000, "utc":"Fri, 25 Dec 2015 00:00:00 GMT"}`
@@ -14,5 +14,3 @@ The api endpoint `/api/timestamp/:date_string?` takes a string and returns its c
 ## Run locally
 1. `npm install`
 2. `npm start`
-
-[Demo](https://bouncy-basketball.glitch.me)
