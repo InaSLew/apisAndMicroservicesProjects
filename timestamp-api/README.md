@@ -14,3 +14,5 @@ The api endpoint `/api/timestamp/:date_string?` takes a string and returns its c
 ## Run locally
 1. `npm install`
 2. `npm start`
+
+## [Demo](https://bouncy-basketball.glitch.me)
