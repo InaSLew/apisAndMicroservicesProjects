@@ -1,0 +1,21 @@
+{
+  "name": "parsereqheaderapi",
+  "version": "1.0.0",
+  "description": "A request header parser",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "to be filled in"
+  },
+  "keywords": [
+    "api",
+    "freeCodeCamp",
+    "header",
+    "parser"
+  ],
+  "author": "InaSLew",
+  "license": "ISC"
+}
