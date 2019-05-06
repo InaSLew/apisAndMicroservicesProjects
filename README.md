@@ -6,7 +6,7 @@ Demos hosted on Glitch
 
 ## Progress: In process
 - [x] Timestamp Microservice
-- [ ] Request Header Parser Microservice
+- [x] Request Header Parser Microservice
 - [ ] URL Shortener Microservice
 - [ ] Exercise Tracker
 - [ ] File Metadata Microservice
