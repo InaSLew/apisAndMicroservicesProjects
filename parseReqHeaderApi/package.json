@@ -17,5 +17,9 @@
     "parser"
   ],
   "author": "InaSLew",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  }
 }
